@@ -1,0 +1,73 @@
+Para una muestra de tamaño n = 10
+El resultado del estadísitico de Pearson para cada uno de los estadísticos es:
+
+2lnlamn:Se acepta la hipótesis nula con $K_n^2$ = 6.124 < 12.592 a un nivel de confianza de 0.050
+Wn:Se acepta la hipótesis nula con $K_n^2$ = 3.506 < 12.592 a un nivel de confianza de 0.050
+Rn:Se acepta la hipótesis nula con $K_n^2$ = 2.610 < 12.592 a un nivel de confianza de 0.050
+
+
+El resultado del estadísitico de Kolmogorov-Smirnov para cada uno de los estadísticos es:
+
+2lnlamnSe acepta la hipótesis nula con $p$ = 0.424 > 0.050
+Wn:Se acepta la hipótesis nula con $p$ = 0.090 > 0.050
+Rn:Se acepta la hipótesis nula con $p$ = 0.776 > 0.050
+
+
+Para una muestra de tamaño n = 20
+El resultado del estadísitico de Pearson para cada uno de los estadísticos es:
+
+2lnlamn:Se acepta la hipótesis nula con $K_n^2$ = 8.588 < 12.592 a un nivel de confianza de 0.050
+Wn:Se acepta la hipótesis nula con $K_n^2$ = 8.644 < 12.592 a un nivel de confianza de 0.050
+Rn:Se rechaza la hipótesis nula con $K_n^2$ = 12.718 > 12.592 a un nivel de confianza de 0.050
+
+
+El resultado del estadísitico de Kolmogorov-Smirnov para cada uno de los estadísticos es:
+
+2lnlamnSe acepta la hipótesis nula con $p$ = 0.134 > 0.050
+Wn:Se acepta la hipótesis nula con $p$ = 0.127 > 0.050
+Rn:Se acepta la hipótesis nula con $p$ = 0.177 > 0.050
+
+
+Para una muestra de tamaño n = 50
+El resultado del estadísitico de Pearson para cada uno de los estadísticos es:
+
+2lnlamn:Se acepta la hipótesis nula con $K_n^2$ = 5.578 < 12.592 a un nivel de confianza de 0.050
+Wn:Se acepta la hipótesis nula con $K_n^2$ = 5.480 < 12.592 a un nivel de confianza de 0.050
+Rn:Se acepta la hipótesis nula con $K_n^2$ = 7.412 < 12.592 a un nivel de confianza de 0.050
+
+
+El resultado del estadísitico de Kolmogorov-Smirnov para cada uno de los estadísticos es:
+
+2lnlamnSe acepta la hipótesis nula con $p$ = 0.079 > 0.050
+Wn:Se acepta la hipótesis nula con $p$ = 0.068 > 0.050
+Rn:Se acepta la hipótesis nula con $p$ = 0.096 > 0.050
+
+
+Para una muestra de tamaño n = 100
+El resultado del estadísitico de Pearson para cada uno de los estadísticos es:
+
+2lnlamn:Se acepta la hipótesis nula con $K_n^2$ = 2.414 < 12.592 a un nivel de confianza de 0.050
+Wn:Se acepta la hipótesis nula con $K_n^2$ = 3.128 < 12.592 a un nivel de confianza de 0.050
+Rn:Se acepta la hipótesis nula con $K_n^2$ = 2.554 < 12.592 a un nivel de confianza de 0.050
+
+
+El resultado del estadísitico de Kolmogorov-Smirnov para cada uno de los estadísticos es:
+
+2lnlamnSe acepta la hipótesis nula con $p$ = 0.926 > 0.050
+Wn:Se acepta la hipótesis nula con $p$ = 0.907 > 0.050
+Rn:Se acepta la hipótesis nula con $p$ = 0.959 > 0.050
+
+
+Para una muestra de tamaño n = 200
+El resultado del estadísitico de Pearson para cada uno de los estadísticos es:
+
+2lnlamn:Se acepta la hipótesis nula con $K_n^2$ = 1.350 < 12.592 a un nivel de confianza de 0.050
+Wn:Se acepta la hipótesis nula con $K_n^2$ = 2.946 < 12.592 a un nivel de confianza de 0.050
+Rn:Se acepta la hipótesis nula con $K_n^2$ = 1.882 < 12.592 a un nivel de confianza de 0.050
+
+
+El resultado del estadísitico de Kolmogorov-Smirnov para cada uno de los estadísticos es:
+
+2lnlamnSe acepta la hipótesis nula con $p$ = 0.892 > 0.050
+Wn:Se acepta la hipótesis nula con $p$ = 0.898 > 0.050
+Rn:Se acepta la hipótesis nula con $p$ = 0.842 > 0.050
