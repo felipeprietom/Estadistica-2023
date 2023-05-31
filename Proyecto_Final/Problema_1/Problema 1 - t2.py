@@ -14,7 +14,7 @@ Y = np.zeros(n)
 
 
 #%%
-#Experimento 1.1 : Modelo Laplace pdf: f(x) = 0.5 exp(-|x|) ;   -inf < x < inf.
+#Experimento 1.1 : Modelo t-student con 2 grados de libertad
 #Nabla = 0
 #Método: Remuestreo
 nabla, theta  = 0, 0
@@ -86,7 +86,8 @@ vHat = np.zeros(B)
 U12, pval22 = stats.mannwhitneyu(X,Y, alternative="less")
 
 #%%
-#Experimento 3.1 : Modelo Laplace pdf: f(x) = 0.5 exp(-|x|) ;   -inf < x < inf.
+#Experimento 3.1 : Modelo Laplace 
+: f(x) = 0.5 exp(-|x|) ;   -inf < x < inf.
 #Nabla = 0.0
 #Método: t-combinado
 nabla, theta  = 0.0, 0
@@ -98,7 +99,7 @@ T = (np.mean(X)- np.mean(Y))/(sp*np.sqrt(1/m+1/n))
 
 #Se asume que T tiene una distribución t(m+n-2). 
 df = n + m -2
-pval31 = t.pdf(T, df)
+pval31 = t.cdf(T, df)
 
 #%%
 #Experimento 3.2 : Modelo Laplace pdf: f(x) = 0.5 exp(-|x|) ;   -inf < x < inf.
@@ -113,7 +114,7 @@ T = (np.mean(X)- np.mean(Y))/(sp*np.sqrt(1/m+1/n))
 
 #Se asume que T tiene una distribución t(m+n-2). 
 df = n + m -2
-pval32 = t.pdf(T, df)
+pval32 = t.cdf(T, df)
 
 #Teniendo en cuenta la definición de p-value, se desea que para los tests que tengan segundo dígito impar, p-val > alpha,
 #para así aceptar la hipótesis nula. En los experimentos pares, el p-value se espera que sea menor a alpha. 
